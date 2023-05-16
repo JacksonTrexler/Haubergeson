@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="101" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="ruleset" tilewidth="64" tileheight="64" tilecount="16" columns="8">
+  <image source="ruleset.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="set" tilewidth="64" tileheight="64" tilecount="16" columns="8">
+  <image source="ruleset.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="33" name="terrain" tilewidth="64" tileheight="64" spacing="10" margin="10" tilecount="50" columns="10">
+  <image source="blob_example.png" width="750" height="380"/>
+ </tileset>
+ <layer name="set" width="100" height="101" opacity="0.35">
+  <data encoding="base64" compression="zlib">
+   eJzt1kkKhDAQQNEQb+D9D+vGhQh2WyamuvUtHoI41sehllLqQDMftcx2WtXNkr62Mz677RTcj2uz3c/36HnQYlyPqOz7eJJRPfS73iLSKXKes+vfbtSzocXvNImeP3se/9qidXZH78nsmby1R+10jCe56ztOW5P9Uo/cHt/+g/TIaZJ9HQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDDAn37VCQ=
+  </data>
+ </layer>
+ <layer name="terrain" width="100" height="101">
+  <data encoding="base64" compression="zlib">
+   eJzt19tOwkAUBdD+itcYRd8EjUrQKAkvXv7/ZzwT29iMBcZQSMXVZIVJQ6Z0ds+ZsqiqarFDjtXHJmt7GI7r8cGGc7F+jdcZh7cwDx/haQC/f1+kHI7CNNzX4zyXZfUwClcDuId9kp7183DZ0uTSaGf10HG+tK4oM8ryOAuTjpy6pO/eFF7nJDxW+tsqs/CarX3Tg/KcupT2q9Tz3pdkJJ+f2n2r6U3THvNI8+d1NAt3A7j3oSqph1yf+0fTz+Y9zvlXpX5SUg+b1Mgys3BafddKVy39N6k2fruPT2p9rN31ANZgSNIz+VyPXwpy8b9j+y6yz3Erl7x25LF9t9XXXpq/l7b7eZPRf+/vu2IvBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYJ98AobtGiY=
+  </data>
+ </layer>
+</map>

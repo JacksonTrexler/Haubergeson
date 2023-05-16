@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="41" height="21" tilewidth="64" tileheight="64" nextobjectid="1">
+ <properties>
+  <property name="AutomappingRadius" value="2"/>
+  <property name="DeleteTiles" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="terrain" tilewidth="64" tileheight="64" spacing="10" margin="10" tilecount="50" columns="10">
+  <image source="blob_example.png" width="750" height="380"/>
+ </tileset>
+ <tileset firstgid="51" name="set" tilewidth="64" tileheight="64" tilecount="16" columns="8">
+  <image source="ruleset.png" width="512" height="128"/>
+ </tileset>
+ <layer name="regions_output" width="41" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1ARmg5w/CkYWGOj0NpoeRwEyGOj0NpoeRwE+MNDpbzQ9jmxAKP5H0+PQBwDFHwoh
+  </data>
+ </layer>
+ <layer name="regions_input" width="41" height="21">
+  <data encoding="base64" compression="zlib">
+   eJztlFEKwCAMQ3sq73+0/brAtK3RUFlBMBhLrU/N6kQ7qFs3PDqz57QenXuWI+vP1lghmH3EfIw+qnlT8Ij5fh7fc+W7VvO2wuMufTOPGIw+4frs3Uf6qObPe9cMvtDPrrFaRP4vjz/69/W+bI0qHiM12ofGHCNvdR4fwchHuQ==
+  </data>
+ </layer>
+ <layer name="output_terrain" width="41" height="21">
+  <data encoding="base64" compression="zlib">
+   eJztzkcKQkEARMEx55wj5oDZ+x/OpVAgIrj783ZFbzqE2D9L4TTO4CzO4Twu4CIu4XKIJbkKruIaruMGbuIWbuMO7oZYkuvhPh7gIR7hMZ7gKZ7heYjF3i3wEq/wGm/wFu/wHh8+PosloeOX/YTP+IKv+Ibv+IGfX/7Efu8FpfYEsw==
+  </data>
+ </layer>
+ <layer name="input_set" width="41" height="21" opacity="0.4">
+  <data encoding="base64" compression="zlib">
+   eJztVUEOgDAI66Pm/7/myWTBMQoSA8YmJqtiXbqCQB+MF/kxXQy/3j8mnUFqROsje4TCLQ1ZL/csudS26uU3OiDTRyzWT33MzqPUq5hHLNZ/Hmv0dZf5WP0/0xUZPmFzb1Xv6eusfHnz6j3riG9aH0N5rs18yb8CJi/M2Wo+sz7ufLXyEs0bOy8ZWL4Ad01P30f6uhpO1rBF/A==
+  </data>
+ </layer>
+</map>
