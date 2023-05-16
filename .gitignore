@@ -1,5 +1,2 @@
-Brigandine/
-!Brigandine/Assets/
-!Brigandine/Assets/**
-!Brigandine/ProjectSettings/
-!Brigandine/ProjectSettings/**
+Brigandine/**
+!Brigandine/Assets
