@@ -1,2 +1,2 @@
-Brigandine/**
-!Brigandine/Assets
+/Brigandine/*
+!/Brigandine/Assets
