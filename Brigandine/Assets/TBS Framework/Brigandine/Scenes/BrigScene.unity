@@ -5764,6 +5764,31 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -2695619058785784247, guid: fa1d6ca7755af26408b868351af5bd6a,
     type: 3}
+--- !u!1 &1246263719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1720592817261226727, guid: fa1d6ca7755af26408b868351af5bd6a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1246263718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1246263720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246263719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5886fcb0f72a2044ba00d0e6c3acd60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _offsetCoord: {x: 0, y: 0}
+  MarkAsReachableFn: []
+  MarkAsPathFn: []
+  MarkAsHighlightedFn: []
+  UnMarkFn: []
+  IsTaken: 0
+  MovementCost: 1
 --- !u!1001 &1279860039
 PrefabInstance:
   m_ObjectHideFlags: 0
